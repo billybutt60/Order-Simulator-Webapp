@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="order.css"/>
+    </head>
+    <body>
+
+        <h1>My First Project</h1>
+
+        <select name="restaurants" id="restaurantsDropDown" onchange="selectRestaurant();"></select>
+
+        <div id="headerId">
+            <h3 id='restaurantNameId'>Restaurant Name: </h3>
+            <h3 id='minOrderId'>Minimum Order: </h3>
+            <h3 id='deliveryFeeId'>Delivery Fee: </h3>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <h1>Three Column Layout</h1>
+        <div class="threeColumnLayout" id="threeColumnLayoutId">
+            <div class="column">
+                <h1>Categories</h1>
+                <ul id="categoriesListId"> </ul>
+            </div>
+            <div class="column">
+                <h1>Menu</h1>
+                <div id="menuListId"></div>
+            </div>
+            <div class="column">
+                <h1>Summary</h1>
+                <ul id="summaryListId"></ul>
+                <h4 id="summarySubtotalId"></h4>
+                <h4 id="summaryDeliveryFeeId"></h4>
+                <h4 id="summaryTaxId"></h4>
+                <h4 id="summaryOrderTotalId"></h4>
+                <div id="summaryColumn"></div>
+            </div>
+        </div>
+
+        <script src="./client.js" ></script>
+    </body>
+</html>
